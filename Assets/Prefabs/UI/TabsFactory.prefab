@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6290929587998148645
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7475225906905551971}
+  - component: {fileID: 7343818521499754097}
+  m_Layer: 0
+  m_Name: TabsFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7475225906905551971
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290929587998148645}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.106466435, y: 13.310299, z: 0.19908158}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7343818521499754097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6290929587998148645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfc96a16e7b0184aadbdeedb70eb849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  makeupTypes: 000000000200000001000000
+  tabSprites:
+  - {fileID: 4432923064242696705, guid: eb670fa9bd9edda428c99de8f152e507, type: 3}
+  - {fileID: 5084321686398463905, guid: b1ee13c8ce24f5e42b8bc78fce252864, type: 3}
+  - {fileID: 5566531877271220411, guid: e1aa6ed6cd2b02f449ed1a4f502838b5, type: 3}
+  activeTabSprites:
+  - {fileID: -1408717137413226234, guid: 3daf9f407e7e01d4aa47f6aa954386a4, type: 3}
+  - {fileID: -2460248190930681085, guid: 76ad758b5e4f25e48bc627fe82a05b7c, type: 3}
+  - {fileID: 2026225629865002003, guid: 873b5507615d03642b88c9603c137b13, type: 3}
+  tabButtonPrefab: {fileID: 7601987500720109902, guid: 00d498954a4e0b840b56e1428baa4883, type: 3}
+  lockSprite: {fileID: 609748218280082232, guid: 8ddb44880319d41499e17f6ba68dee59, type: 3}

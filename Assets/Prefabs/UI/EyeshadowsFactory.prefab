@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709188155180343458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5467129611083691490}
+  - component: {fileID: 2074146860044479455}
+  m_Layer: 0
+  m_Name: EyeshadowsFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5467129611083691490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709188155180343458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3013728, y: 0.1545612, z: 372.70517}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074146860044479455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709188155180343458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0411fb93c393cd4895f2486f6773227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  makeupType: 2
+  palette:
+  - {fileID: -9083023727679918253, guid: 8bfc646ee5b2dfd4bbbbf242aca06d61, type: 3}
+  - {fileID: 3832856891997755353, guid: d100d3d864b73a948b13f0b12fb5d928, type: 3}
+  - {fileID: -2807799779774319300, guid: 4e71ad21d63f93347b44666f2d8362d0, type: 3}
+  - {fileID: -283848679355503933, guid: f02a701fbd9d9cc448506a2de7ecb473, type: 3}
+  - {fileID: 491726396686365125, guid: 7d1d41661a421e749b60575c6f69f961, type: 3}
+  - {fileID: 8879923056484331699, guid: 893aa4fe9d25f62469367ba8924a0bf8, type: 3}
+  - {fileID: 7146465050932404380, guid: fc80b66379248404da0e24654a01aef5, type: 3}
+  - {fileID: 1690259320168040865, guid: b356d05c20fb2994893f476e2f5fd1a4, type: 3}
+  - {fileID: 8290768584984152016, guid: 4ec4a9b7010af8d428ceeaf424b18030, type: 3}
+  makeupSprite:
+  - {fileID: 21300000, guid: 1cddaaa1010b8334fbe04bc4b09c0779, type: 3}
+  - {fileID: 21300000, guid: 46eb5a92569bd7f49ac42fd02718546c, type: 3}
+  - {fileID: 21300000, guid: 7ed9a12582c7b4c4fb95dcfc3028a7aa, type: 3}
+  - {fileID: 21300000, guid: 8e133b51f35ad9446bcb6b461414a803, type: 3}
+  - {fileID: 21300000, guid: c7723d3e7ae3937429305b0697fe6ca9, type: 3}
+  - {fileID: 21300000, guid: 02095c7bd5fee114ca4bb7fad15a2d20, type: 3}
+  - {fileID: 21300000, guid: eedf4c16a06c04b46a330dcd40d51c3d, type: 3}
+  - {fileID: 21300000, guid: 3fa9bb16d8b3b004d99ee249e5d9c62a, type: 3}
+  - {fileID: 21300000, guid: a5bc4c2e3b2919045ae9cd6180f5cd34, type: 3}
+  toolSprite: {fileID: 4665549093041750926, guid: 2822ca7dcd3dd854baa949da8f8306a6, type: 3}
+  toolMaskSprite: {fileID: 6477086489363411478, guid: 52a83fd7961d0254dabe20fae8085a80, type: 3}
+  paletteButtonPrefab: {fileID: 6377284575230815831, guid: 5ea5ce1044238dc47a4cb93c7d841741, type: 3}
+  toolPrefab: {fileID: 5811314568286074409, guid: 3ab68350ab1a0824b8b69667c70f29fb, type: 3}
+  toolOffset: {x: -0.345, y: 1.271, z: 0}
+  toolRotation: {x: 0, y: 0, z: 15}
+  faceOffset: {x: 0, y: 0.325, z: 0}

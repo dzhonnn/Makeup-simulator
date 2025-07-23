@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709188155180343458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5467129611083691490}
+  - component: {fileID: 2074146860044479455}
+  m_Layer: 0
+  m_Name: BlushFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5467129611083691490
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709188155180343458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3013728, y: 0.1545612, z: 372.70517}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2074146860044479455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709188155180343458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0411fb93c393cd4895f2486f6773227, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  makeupType: 0
+  palette:
+  - {fileID: 2735780376057595307, guid: 653e2e3a9a9512e40b710a8915540c7c, type: 3}
+  - {fileID: -1322443347611866250, guid: 7c62329b333da7c4a910494749c85c3a, type: 3}
+  - {fileID: -5595769614546131945, guid: dab71bc799d9af24a9826c3bb9d86f65, type: 3}
+  - {fileID: 7313455164188800378, guid: 77520aec6240dca4a99ba232cfb38876, type: 3}
+  - {fileID: -5019120186524738833, guid: 8c41c24326688054ca112cf0d5b696b0, type: 3}
+  - {fileID: 5546873559369261594, guid: e2dd212931d4fe143801bcd2143f05b8, type: 3}
+  - {fileID: -1254107489049226150, guid: 129ce25ed6da5804888cceb55ff0e04a, type: 3}
+  - {fileID: -8124131503724612360, guid: dbf500defacc6bc41a97a75e6ffff2f1, type: 3}
+  - {fileID: -4166999968946950401, guid: 5e82c29c8971b0743a6de78a2baab0d0, type: 3}
+  makeupSprite:
+  - {fileID: 8717173355426457337, guid: 493a42b0a2650f84997cdf87db916d23, type: 3}
+  - {fileID: -1103529596378392891, guid: 1df1c263a97f5604f9fb8df4b9692df2, type: 3}
+  - {fileID: 695425078304060001, guid: b137512006b15664982888eb77ac3cfb, type: 3}
+  - {fileID: 2090666495618203941, guid: 133ecca93a061944fa9599919cae8a80, type: 3}
+  - {fileID: -3484198330287471656, guid: fea06486fe7813f4eb3128d15413a17e, type: 3}
+  - {fileID: 3870179183414988533, guid: fe85eac573e9c3a4b80954d2e41034e1, type: 3}
+  - {fileID: -3907036167199623407, guid: 79eb2c0390a7e41428c3ee7b37091a45, type: 3}
+  - {fileID: 4166005332384359394, guid: f430d32d50e38c641addd7d573b65d43, type: 3}
+  - {fileID: 1919747401254520069, guid: a89fb3a870d4f1e459daaf39d523fda1, type: 3}
+  toolSprite: {fileID: 8384921574167642751, guid: 1f6d4b130a96edf4dbac2f667b4ef5d2, type: 3}
+  toolMaskSprite: {fileID: -1205121105319631524, guid: ccab3e6acb5846f4ca87a03fa1438200, type: 3}
+  paletteButtonPrefab: {fileID: 6377284575230815831, guid: 5ea5ce1044238dc47a4cb93c7d841741, type: 3}
+  toolPrefab: {fileID: 5811314568286074409, guid: 3ab68350ab1a0824b8b69667c70f29fb, type: 3}
+  toolOffset: {x: -0.23, y: 0.876, z: 0}
+  toolRotation: {x: 0, y: 0, z: 15}
+  faceOffset: {x: 0, y: 0, z: 0}

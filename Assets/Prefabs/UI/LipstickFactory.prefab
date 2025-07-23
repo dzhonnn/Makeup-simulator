@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3063579687047343647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5578470488550537325}
+  - component: {fileID: 9090705410201328235}
+  m_Layer: 0
+  m_Name: LipstickFactory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5578470488550537325
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3063579687047343647}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.57257414, y: -2.00249, z: 0.015958965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9090705410201328235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3063579687047343647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b46bdb764e40b40a659a60309f6d1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lipsticks:
+  - {fileID: -7973376512685140356, guid: 8238ca20afdc34a4590af5c3bfac0cf8, type: 3}
+  - {fileID: -1451781210149412861, guid: 05ca8a19ea6dd5d4cb164c339fa2a4d8, type: 3}
+  - {fileID: 1764545999717624069, guid: 787d540b8bd027246a64dec32d466993, type: 3}
+  - {fileID: 3291508729261550910, guid: b0572a04ceca4374591f4e0a9fdf6e7a, type: 3}
+  - {fileID: 8171380537145016961, guid: 39876c65aefdb3a4e85967420c6fdc3d, type: 3}
+  - {fileID: 8831518379824529241, guid: 79064675409ceca4b8e25d0c47cf3582, type: 3}
+  makeupSprite:
+  - {fileID: -7973376512685140356, guid: af5f4e29cd85a204e98f9f1c80d5688d, type: 3}
+  - {fileID: -1451781210149412861, guid: b79eef6eaa556c7448a185faf39d533b, type: 3}
+  - {fileID: 1764545999717624069, guid: 7dc3d9221e42d9343a91657d176618a0, type: 3}
+  - {fileID: 3291508729261550910, guid: b2836412006120f4e9cebd330da96625, type: 3}
+  - {fileID: 8171380537145016961, guid: 992c6c4c41ac0584ab98b6a975f55e34, type: 3}
+  - {fileID: 8831518379824529241, guid: 1ef125334e82b27488e119f56b81a00d, type: 3}
+  lipstickMask: {fileID: -8528412549895239139, guid: 77b7cbf48e8f89f41b7e9646ae433162, type: 3}
+  paletteButtonPrefab: {fileID: 5569064181213368328, guid: 1f5b1e59d76d58648b37dee90b38184f, type: 3}
+  makeupToolPrefab: {fileID: 5811314568286074409, guid: 3ab68350ab1a0824b8b69667c70f29fb, type: 3}
+  toolOffset: {x: 0, y: 0.635, z: 0}
+  toolRotation: {x: 0, y: 0, z: 0}
+  faceOffset: {x: 0, y: -0.325, z: 0}
